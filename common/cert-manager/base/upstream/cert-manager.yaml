@@ -12958,7 +12958,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: cert-manager-cainjector
-          image: "quay.io/jetstack/cert-manager-cainjector:v1.16.1"
+          image: "m.daocloud.io/quay.io/jetstack/cert-manager-cainjector:v1.16.1"
           imagePullPolicy: IfNotPresent
           args:
           - --v=2
@@ -13021,13 +13021,13 @@ spec:
           type: RuntimeDefault
       containers:
         - name: cert-manager-controller
-          image: "quay.io/jetstack/cert-manager-controller:v1.16.1"
+          image: "m.daocloud.io/quay.io/jetstack/cert-manager-controller:v1.16.1"
           imagePullPolicy: IfNotPresent
           args:
           - --v=2
           - --cluster-resource-namespace=$(POD_NAMESPACE)
           - --leader-election-namespace=kube-system
-          - --acme-http01-solver-image=quay.io/jetstack/cert-manager-acmesolver:v1.16.1
+          - --acme-http01-solver-image=m.daocloud.io/quay.io/jetstack/cert-manager-acmesolver:v1.16.1
           - --max-concurrent-challenges=60
           ports:
           - containerPort: 9402
@@ -13103,7 +13103,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: cert-manager-webhook
-          image: "quay.io/jetstack/cert-manager-webhook:v1.16.1"
+          image: "m.daocloud.io/quay.io/jetstack/cert-manager-webhook:v1.16.1"
           imagePullPolicy: IfNotPresent
           args:
           - --v=2
