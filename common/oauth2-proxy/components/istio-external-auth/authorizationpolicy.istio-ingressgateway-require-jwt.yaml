@@ -4,7 +4,7 @@ metadata:
   name: istio-ingressgateway-require-jwt
   namespace: istio-system
 spec:
-  action: ALLOW
+  action: DENY
   selector:
     matchLabels:
       app: istio-ingressgateway
