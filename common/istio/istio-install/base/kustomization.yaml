@@ -21,4 +21,4 @@ patches:
 
 images:
 - name: busybox
-  newName: ghcr.io/containerd/busybox
+  newName: m.daocloud.io/ghcr.io/containerd/busybox
