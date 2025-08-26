@@ -23,3 +23,5 @@ spec:
         - /dex/*
         - /dex/**
         - /oauth2/*
+  - key: destination.namespace
+    notValues: ["bookinfo"]
