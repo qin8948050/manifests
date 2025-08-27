@@ -8946,6 +8946,8 @@ spec:
           readOnly: true
       securityContext:
         runAsNonRoot: true
+        seccompProfile:
+          type: RuntimeDefault  # Add this to fix the issue
       serviceAccountName: jobset-controller-manager
       terminationGracePeriodSeconds: 10
       volumes:
