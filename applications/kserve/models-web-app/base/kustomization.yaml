@@ -9,7 +9,7 @@ namespace: kserve
 
 images:
 - name: kserve/models-web-app
-  newName: ghcr.io/kserve/models-web-app
+  newName: m.daocloud.io/ghcr.io/kserve/models-web-app
   newTag: v0.14.0
 configMapGenerator:
 - literals:
