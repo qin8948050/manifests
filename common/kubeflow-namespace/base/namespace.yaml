@@ -4,7 +4,7 @@ metadata:
   name: kubeflow
   labels:
     control-plane: kubeflow
-    istio-injection: enabled
+    istio-injection: disabled
     pod-security.kubernetes.io/enforce: restricted
 ---
 apiVersion: v1
@@ -13,5 +13,5 @@ metadata:
   name: kubeflow-system
   labels:
     control-plane: kubeflow
-    istio-injection: enabled
+    istio-injection: disabled
     pod-security.kubernetes.io/enforce: restricted
