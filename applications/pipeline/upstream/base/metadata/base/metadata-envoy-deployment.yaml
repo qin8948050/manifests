@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: container
-        image: ghcr.io/kubeflow/kfp-metadata-envoy:dummy
+        image: m.daocloud.io/ghcr.io/kubeflow/kfp-metadata-envoy:dummy
         ports:
         - name: md-envoy
           containerPort: 9090
