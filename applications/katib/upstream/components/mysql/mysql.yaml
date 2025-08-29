@@ -24,7 +24,7 @@ spec:
         fsGroupChangePolicy: OnRootMismatch
       containers:
         - name: katib-mysql
-          image: mysql:8.0.29
+          image: m.daocloud.io/gcr.io/ml-pipeline/mysql:8.0.26
           args:
             - --datadir
             - /var/lib/mysql/datadir
