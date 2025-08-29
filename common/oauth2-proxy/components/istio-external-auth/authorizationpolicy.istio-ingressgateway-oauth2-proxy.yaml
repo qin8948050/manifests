@@ -16,8 +16,6 @@ spec:
   - when:
     - key: request.headers[authorization]
       notValues: ["*"]
-    - key: destination.namespace
-      notValues: ["bookinfo"]
     to:
     - operation:
         notPaths:
