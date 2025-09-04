@@ -8,4 +8,4 @@ spec:
   host: model-registry-ui-service.kubeflow.svc.cluster.local
   trafficPolicy:
     tls:
-      mode: DISABLED
+      mode: DISABLE
